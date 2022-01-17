@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 0;
+    font-family: 'Space Mono', monospace;
 }
 
 #navigationbar{
@@ -27,25 +28,25 @@ body {
 }
 
 #container{
-    border: 1px solid;
     padding-left: 5%;
     padding-right: 5%;
     display: flex;
     flex-wrap: flex;
     justify-content: space-between;
+    background-color: #1F2937;
 }
 
 #headerlogo{
-    border: 1px solid;
     margin-top: auto;
     margin-bottom: auto;
     font-size: 50px;
+    color: #F9faf8;
 }
 #items{
-    border: 1px solid;
     list-style-type: none;
     overflow: hidden;
     font-size: 30px;
+    color: #E5E7EB;
 }
 
 #items li{
@@ -53,30 +54,47 @@ body {
     margin: 0px 10px 0px 10px;
 }
 
-
 #container1{
     display: flex;
     flex-wrap: flex;
     justify-content: space-evenly;
-    border: solid 1px;
     padding: 5%;
+    background-color: #1F2937;
+
 }
 
 
-
 #description{
-    border: 1px solid;
     box-sizing: border-box;
     padding: 10px;
     margin-top: auto;
     margin-bottom: auto;
+    width: 500px;
+}
+
+#description h1{
+    font-size: 48px;
+    font-style: extra-bold;
+    color: #f9faf8;
+}
+#description p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+#description h4{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #descimage{
-    border: 1px solid;
+    /*border: 1px solid;*/
 }
 #container2{
-    border: 1px solid;
     padding: 2% 5% 5% 5%;
     display: flex;
     flex-wrap: flex;
@@ -85,9 +103,19 @@ body {
     text-align: center;
 
 }
+#container2 h2{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: extra-bold;
+}
+
+#container2 p{
+    color: #1F2937;
+    font-size: 15px;
+    font-style: extra-bold;
+}
 
 #imagecontainer{
-    border: solid 1px;
     display: flex;
     flex-wrap: flex;
     flex-direction: row;
@@ -98,12 +126,8 @@ body {
     
 }
 
-.image{
-    border: 1px solid;
-}
 .image p{
     margin-top: 0;
-    border: 1px solid;
     color: brown;
 }
 .imagesize{
@@ -115,46 +139,65 @@ body {
 
 #dimage{
     width: 400px;
-    height: 300px;
+    height: 350px;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 #container3{
-    border: 1px solid;
-    padding: 2% 5% 5% 5%;
+    padding: 8% 10% 5% 10%;
     display: flex;
     flex-wrap: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    background-color: #E5E7EB;
 }
 
+
+
+#container3 p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+
 #container4{
-    border: 1px solid;
-    padding: 5% 5% 5% 5%;
+    padding: 5% 10% 5% 10%;
     justify-content: center;
+    color: #F9faf8;
 }
 
 #lastpart{
-    border: 1px solid;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 3% 5% 3% 5%;
+    padding: 3% 10% 3% 5%;
+    background-color: #3882F6;
+    border-radius: 15px;;
 }
+
+#lastpart p{
+    font-size: large;
+    font-weight: 900;
+    margin: 1px;
+}
+
+
 
 #container5{
     justify-content: center;
     text-align: center;
-}
+    background-color: #1F2937;
+    padding: 2%;
+    color:#f9faf8;
 
-#signupbutton{
-    border:1px solid;
 }
 
 #signupbutton h4{
-    border: 1px solid;
+    border: 2px solid;
     padding: 5px 40px 5px 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -162,5 +205,6 @@ body {
 }
 
 #lasttext{
-    border:1px solid;
+    margin-top: auto;
+    margin-bottom: auto;
 }
